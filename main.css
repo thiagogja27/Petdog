@@ -1,0 +1,117 @@
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+.navbar {
+    background-color: rgb(151, 104, 23);
+
+}
+
+#cabecalho.nav .nav-link.active {
+    background-color: #fff;
+    color: #41e1a9;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+h1 {
+    color: #2b4aba;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+
+}
+
+h3 {
+    color: white;
+}
+
+h2 {}
+
+
+
+#Sobre-a-loja,
+#brinquedos {
+    background-color: #92ba3b;
+    border-radius: 50px;
+
+}
+
+.custom-margin {
+    margin-right: 20px;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 640px) {
+    #cards .col-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    #evento-dogs .col-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    #cards .col-4 {
+        width: 50%;
+
+    }
+
+    #evento-dogs .col-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    #cards .col-4 {
+
+        margin-bottom: 20px;
+
+    }
+
+
+    #Mordedores img {
+        height: 359px;
+    }
+
+
+}
